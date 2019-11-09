@@ -1,7 +1,8 @@
 {
   "name": "google-cloud-typescript-functions",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "deploy": "gcloud functions deploy helloGET --runtime nodejs8 --trigger-http"
   },
   "version": "1.0.0",
   "main": "out/index.js",
