@@ -41,7 +41,7 @@ This is running the `gcloud` command for deploying to the current active Google 
 
 Alternatively run the command directly with:
 ```bash
-cloud functions deploy helloGET --runtime nodejs8 --trigger-http
+gcloud functions deploy helloGET --runtime nodejs8 --trigger-http
 ```
 
 If the function is successfully deployed you should see a url to where you can access the function.
